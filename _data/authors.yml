@@ -1,0 +1,25 @@
+# Authors
+
+default:
+  name        : "Yuval Itzhaki"
+  avatar      : "profile.png"
+  bio         : "Algorithms Researcher"
+  employer    : "Ben Gurion University of the Negev"
+  email       : "ityuval@bgu.ac.il"
+  arxiv       : "http://arxiv.org/a/itzhaki_y_1"
+  googlescholar: "https://scholar.google.com/citations?user=_msHpNAAAAAJ&hl=en&oi=ao"
+  orcid       : "https://orcid.org/0000-0002-5309-7075"
+  dblp        : "https://dblp.org/pid/309/5696.html"
+  linkedin    : "yuval-itzhaki-917a6a11b"
+
+photography:
+  name        : "Yuval Itzhaki"
+  avatar      : "profile_photography.jpg"
+  bio         : "(Failed) Photographer"
+  employer    : "Ben Gurion University of the Negev"
+  email       : "ityuval@bgu.ac.il"
+  arxiv       : "http://arxiv.org/a/itzhaki_y_1"
+  googlescholar: "https://scholar.google.com/citations?user=_msHpNAAAAAJ&hl=en&oi=ao"
+  orcid       : "https://orcid.org/0000-0002-5309-7075"
+  dblp        : "https://dblp.org/pid/309/5696.html"
+  linkedin    : "yuval-itzhaki-917a6a11b"

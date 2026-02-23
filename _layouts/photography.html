@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="photography-gallery">
+{% assign folder = page.folder %}
+{% for file in site.static_files %}
+  {% if file.path contains "/images/photography/" and file.path contains folder %}
+    <img src="{{ file.path }}" loading="lazy">
+  {% endif %}
+{% endfor %}
+</div>
+
+<style>
+.photography-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.photography-gallery img {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+</style>

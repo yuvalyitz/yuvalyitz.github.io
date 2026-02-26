@@ -34,7 +34,7 @@ Our goal is to maximize the total weight of just-in-time jobs.
 
 We complement these hardness results with several tractability results:
 
-- A **pseudo-polynomial dynamic program** for fixed number of machines $m$.
+- A **pseudo-polynomial dynamic program** for fixed number of machines $$m$$.
 - A **pseudo-polynomial dynamic program** for bounded maximum clique.
 - A **pseudo-polynomial dynamic program** for second-stage processing times.
 - Polynomial-time algorithms for special cases, including:

@@ -8,60 +8,47 @@
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 
 <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof window.jQuery === 'undefined' || !$('#gallery').length) {
+      return;
+    }
 
-  // import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
-  // // or 'photoswipe-dynamic-caption-plugin' if using package manager
-  // import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
-
-
-  $('#gallery').justifiedGallery({
-    rowHeight : 260,
-    lastRow : 'nojustify',
-    margins : 8
-  }).on('jg.complete', function () {
-
-    const lightbox = new PhotoSwipeLightbox({
-      gallerySelector: '#gallery',
-      gallery: '#gallery',
-      children: 'a',
-      pswpModule: PhotoSwipe,
-      childSelector: '.pswp-gallery__item',
-      paddingFn: (viewportSize) => {
-        return {
-          top: 30, bottom: 30, left: 70, right: 70
-        }
-      },
-      pswpModule: () => import('photoswipe/dist/photoswipe.esm.js'),
-      captionContent: (slide) => slide.data.pswpCaption || ''
-    });
-
-
-    lightbox.on('uiRegister', function() {
-      lightbox.pswp.ui.registerElement({
-        name: 'custom-caption',
-        order: 9,
-        isButton: false,
-        appendTo: 'root',
-        html: '',
-        onInit: (el, pswp) => {
-          pswp.on('change', () => {
-            const currSlide = pswp.currSlide;
-            const caption = currSlide.data?.pswpCaption || '';
-            el.innerHTML = caption;
-          });
-        }
+    $('#gallery').justifiedGallery({
+      rowHeight: 260,
+      lastRow: 'nojustify',
+      margins: 8
+    }).on('jg.complete', function () {
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: '#gallery',
+        children: 'a',
+        childSelector: '.pswp-gallery__item',
+        pswpModule: PhotoSwipe,
+        paddingFn: () => ({ top: 30, bottom: 30, left: 70, right: 70 }),
+        captionContent: (slide) => slide.data?.pswpCaption || ''
       });
-    });
-    const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
-      // Plugins options, for example:
-      type: 'auto',
-    });
 
-    lightbox.init();
+      lightbox.on('uiRegister', function () {
+        lightbox.pswp.ui.registerElement({
+          name: 'custom-caption',
+          order: 9,
+          isButton: false,
+          appendTo: 'root',
+          html: '',
+          onInit: (el, pswp) => {
+            pswp.on('change', () => {
+              const currSlide = pswp.currSlide;
+              el.innerHTML = currSlide.data?.pswpCaption || '';
+            });
+          }
+        });
+      });
+
+      if (typeof window.PhotoSwipeDynamicCaption !== 'undefined') {
+        new PhotoSwipeDynamicCaption(lightbox, { type: 'auto' });
+      }
+
+      lightbox.init();
+    });
   });
 </script>
 <!-- end custom footer snippets -->
-
-
-
-

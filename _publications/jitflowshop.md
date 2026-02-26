@@ -26,7 +26,7 @@ Our goal is to maximize the total weight of just-in-time jobs.
 ### Main results
 
 - We prove that the **unweighted problem is strongly NP-hard**, via a reduction from *Hitting Set*.  
-- The reduction also implies **W[2]-hardness with respect to the number of machines** \(m\).
+- The reduction also implies **W[2]-hardness with respect to the number of machines** $$m$$.
 
 ---
 

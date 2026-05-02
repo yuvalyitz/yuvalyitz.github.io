@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/temporal-is-clique
 date: 2023-06-15
 excerpt: 'We give hardness, approximation, and parameterized results for Temporal Clique and Temporal Independent Set on temporal interval graphs.'
-venue: 'Theoretical Computer Science, Volume 961, p.113885.'
+venue: 'Theoretical Computer Science, Volume 961, p.113885'
 paperurl: 'https://doi.org/10.1016/j.tcs.2023.113885'
 bibtexurl: 'https://yuvalyitz.github.io/files/hermelin2022temporal.bib'
 citation: 'Hermelin, D., Itzhaki, Y., Molter, H. and Niedermeier, R., 2023. Temporal interval cliques and independent sets. Theoretical Computer Science, 961, p.113885.'

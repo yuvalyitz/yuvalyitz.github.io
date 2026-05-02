@@ -1,11 +1,11 @@
 ---
-title: "On the parameterized complexity of interval scheduling with eligible machine sets"
+title: "On the Parameterized Complexity of Interval Scheduling with Eligible Machine Sets"
 collection: publications
 category: manuscripts 
 permalink: /publication/eligible-machines
 excerpt: 'We show W[1]-hardness for the number of machines $$m$$ in Interval Scheduling with Eligible Machines, prove NP-hardness for bounded $$ p_{\max} $$, and give an FPT algorithm for the combined parameter $$ p_{\max} + m $$.'
 date: 2024-09-01
-venue: 'Journal of Computer and System Sciences, Volume 144, p.103533.'
+venue: 'Journal of Computer and System Sciences, Volume 144, p.103533'
 slidesurl: '/files/Hardness_Unrelated2023_slides_.pdf'
 paperurl: 'https://doi.org/10.1016/j.jcss.2024.103533'
 bibtexurl: 'https://yuvalyitz.github.io/files/hermelin2024parameterized.bib'

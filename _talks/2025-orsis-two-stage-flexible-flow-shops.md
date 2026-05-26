@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2025-orsis-two-stage-flexible-flow-shops/
 venue: "Operations Research Society of Israel (ORSIS) Annual Meeting"
-date: 2025
+date: 2025-05-01
 location: "Tel Aviv, Israel"
 ---
 

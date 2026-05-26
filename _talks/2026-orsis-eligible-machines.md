@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2026-orsis-eligible-machines/
 venue: "Operations Research Society of Israel (ORSIS) Annual Meeting"
-date: 2026
+date: 2026-05-13
 location: "Haifa, Israel"
 ---
 

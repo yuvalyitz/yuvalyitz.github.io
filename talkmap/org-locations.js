@@ -1,22 +1,27 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Interval Scheduling with Machine Eligibility<br />Operations Research Society of Israel (ORSIS) Annual Meeting; Haifa, Israel",
+    32.8191218,
+    34.9983856
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Fair Repetitive Interval Scheduling<br />Operations Research Society of Israel (ORSIS) Annual Meeting; Be'er Sheva, Israel",
+    31.2457442,
+    34.7925181
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Just-in-Time Scheduling in Two-Stage Flexible Flow Shops<br />Operations Research Society of Israel (ORSIS) Annual Meeting; Tel Aviv, Israel",
+    32.0852997,
+    34.7818064
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "Scheduling Intervals<br />Department of Industrial Engineering and Management Research Day, Ben-Gurion University; Be'er Sheva, Israel",
+    31.2457442,
+    34.7925181
+  ],
+  [
+    "Interval Scheduling with Eligible Machines<br />Pioneering Israeli Science, Science Abroad; New York, NY, USA",
+    40.7127281,
+    -74.0060152
   ]
 ];

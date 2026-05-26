@@ -4,7 +4,7 @@ collection: talks
 type: "Poster"
 permalink: /talks/2026-pisc-eligible-machines-poster/
 venue: "Pioneering Israeli Science, Science Abroad"
-date: 2026
+date: 2026-05-18
 location: "New York, NY, USA"
 ---
 

@@ -9,7 +9,7 @@ location: "Tel Aviv, Israel"
 eventurl: "https://dzahox-zgpvh.maillist-manage.net/click/1101647e44f7c8052/1101647e44f7c55ce"
 ---
 
-Poster presented at the [Israel Data Science and Statistics Association (ISDSA) Annual Conference](https://dzahox-zgpvh.maillist-manage.net/click/1101647e44f7c8052/1101647e44f7c55ce), held on June 10, 2026, at Eretz Israel Museum, Tel Aviv.
+[Poster](https://statistics.org.il/wp-content/uploads/2026/06/posters-2026-Yuval-Itzhaki.pdf) presented at the [Israel Data Science and Statistics Association (ISDSA) Annual Conference](https://dzahox-zgpvh.maillist-manage.net/click/1101647e44f7c8052/1101647e44f7c55ce), held on June 10, 2026, at Eretz Israel Museum, Tel Aviv.
 
 ## Authors
 

@@ -9,7 +9,6 @@ location: "Beer-Sheva, Israel"
 ---
 
 ### Course overview
-
 This undergraduate course introduces event-based simulation and simulation-based analysis of stochastic systems. The course is taught in Hebrew at the Department of Industrial Engineering and Management, Ben-Gurion University of the Negev.
 
 The course is led by Prof. [Nimrod Talmon](https://www.bgu.ac.il/en/people/talmonn/). The official course website is available here:  

@@ -29,7 +29,8 @@ author:
   # location         : "Tel Aviv"
   employer         : "Technische Universität Hamburg"
   uri              : # URL
-  email            : "ityuval@bgu.ac.il" 
+  # email            : "ityuval@bgu.ac.il"
+  email            : "yuval.itzhaki@tuhh.de"
 
   # Academic websites
   arxiv            : "http://arxiv.org/a/itzhaki_y_1"

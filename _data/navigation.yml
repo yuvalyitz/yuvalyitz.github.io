@@ -16,6 +16,12 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
+
+  - title: "Scheduling Zoo"
+    url: /scheduling-zoo/
+
+  - title: "Research Tools"
+    url: /research-tools/
     
   # - title: "Portfolio"
     # url: /portfolio/

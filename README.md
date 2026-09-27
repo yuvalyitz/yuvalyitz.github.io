@@ -1,27 +1,30 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# yuvalyitz.github.io
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
-
-# Getting Started
-
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
-
-See more info at https://academicpages.github.io/
+Source for [https://yuvalyitz.github.io](https://yuvalyitz.github.io), built with
+[Academic Pages](https://academicpages.github.io/), a Jekyll template for academic
+personal sites.
 
 ## Running locally
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+```bash
+LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll serve --port 4000
+```
 
-1. Clone the repository and made updates as detailed above.
+Then open [http://localhost:4000](http://localhost:4000). Jekyll watches the
+repo and rebuilds on save, so just edit and refresh.
 
-### Using a different IDE
+The `LANG`/`LC_ALL` prefix works around a local-only issue: without a UTF-8
+locale, Jekyll fails on a non-ASCII character in one of the theme's vendored
+`.scss` files (`Invalid US-ASCII character "\xE2"`). If your shell already
+defaults to a UTF-8 locale you can drop the prefix and just run
+`bundle exec jekyll serve --port 4000`.
+
+First time setting up, or after pulling changes to the `Gemfile`, run
+`bundle install` first. See [Setup](#setup) below if that fails or you don't
+have Ruby/Bundler yet.
+
+## Setup
+
 1. Make sure you have ruby-dev, bundler, and nodejs installed
     
     On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
@@ -49,8 +52,7 @@ When you are initially working on your website, it is very useful to be able to 
     ```
     then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and open `.gitignore` then add `vendor` inside it.
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+1. Run `bundle exec jekyll serve --port 4000` (see [Running locally](#running-locally) above for the macOS locale caveat).
 
 If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 

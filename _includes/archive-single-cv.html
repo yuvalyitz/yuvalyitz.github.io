@@ -12,9 +12,8 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<li class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <li>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -36,7 +35,8 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
-    </li>
+    {% if post.collection == 'teaching' %}
+      <p>{{ post.role | default: post.type }}, {{ post.venue }}, {% if post.period %}{{ post.period }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
+    {% elsif post.citation %}<p class="archive__item-excerpt">{{ post.citation }}</p>{% endif %}
  </article>
-</div>
+</li>

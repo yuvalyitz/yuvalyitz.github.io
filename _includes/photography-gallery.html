@@ -1,0 +1,8 @@
+{% assign album = site.data.albums | where: "slug", page.album | first %}
+<div id="gallery" class="photography-gallery">
+  {% for photo in album.images %}
+  <a href="{{ photo.src | relative_url }}" data-pswp-width="{{ photo.width }}" data-pswp-height="{{ photo.height }}">
+    <img src="{{ photo.thumbnail | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
+  </a>
+  {% endfor %}
+</div>

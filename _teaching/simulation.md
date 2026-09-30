@@ -2,11 +2,14 @@
 title: "Simulation [Hebrew]"
 collection: teaching
 type: "Undergraduate course"
+role: "Teaching Assistant"
 permalink: /teaching/simulation
 venue: "Ben-Gurion University of the Negev, Department of Industrial Engineering and Management"
 date: 2026-03-01
 location: "Beer-Sheva, Israel"
 ---
+
+**Role:** Teaching Assistant
 
 ### Course overview
 This course teaches how to conduct stochastic simulation experiments, from modeling probability distributions and using pseudo-random generators to building event-based simulations and performing output analysis.

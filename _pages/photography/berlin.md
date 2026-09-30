@@ -5,15 +5,8 @@ author_profile: true
 layout: archive
 title: "Berlin"
 permalink: /photography/berlin/
-# author_profile: false
+gallery: true
+album: berlin
 ---
 
-<div id="gallery">
-{% for file in site.static_files %}
-  {% if file.path contains '/images/photography/berlin/' %}
-    <a href="{{ file.path }}">
-      <img src="{{ file.path }}">
-    </a>
-  {% endif %}
-{% endfor %}
-</div>
+{% include photography-gallery.html %}

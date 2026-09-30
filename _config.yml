@@ -12,10 +12,10 @@ site_theme               : "default"
 title                    : "Yuval Itzhaki"
 title_separator          : "-"
 name                     : &name "Yuval Itzhaki"
-description              : &description "personal description"
+description              : &description "Yuval Itzhaki — researcher in algorithms, scheduling, and parameterized complexity at Hamburg University of Technology."
 url                      : https://yuvalyitz.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "yuvalyitz/yuvalyitz.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -29,11 +29,10 @@ author:
   # location         : "Tel Aviv"
   employer         : "Technische Universität Hamburg"
   uri              : # URL
-  # email            : "ityuval@bgu.ac.il"
   email            : "yuval.itzhaki@tuhh.de"
 
   # Academic websites
-  arxiv            : "http://arxiv.org/a/itzhaki_y_1"
+  arxiv            : "https://arxiv.org/a/itzhaki_y_1"
   googlescholar    : "https://scholar.google.com/citations?user=_msHpNAAAAAJ&hl=en&oi=ao"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-5309-7075"
@@ -152,7 +151,7 @@ analytics:
   # provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   # google:
   #   tracking_id          :
-  provider: "google-gtag"
+  provider: "google-analytics-4"
   google:
     tracking_id: "G-Z9FE84X55M"
 
@@ -185,19 +184,22 @@ exclude:
   - log
   - node_modules
   - package.json*
+  - package-lock.json
+  - Gemfile.lock
   - Rakefile
   - README
   - tmp
   - vendor
-  # excludes to fix sitemap
+  - scripts
+  - anaconda_projects
+  - "*.ipynb"
+  - CONTRIBUTING.md
+  - README.md
+  - docker-compose.yaml
+  - assets/photoswipe/dist/types
+  - "**/*.map"
+  # Source-only helpers
   - markdown_generator
-  - archive-layout-with-content
-  - non-menu-page
-  - archive-layout-with-content
-  - collection-archive
-  - page-archive
-  - year-archive
-  - markdown
 
 keep_files:
   - .git
@@ -234,15 +236,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  # portfolio:
-  #   output: true
-  #   permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
-  photography:
-    output: true
-    permalink: /photography/:slug/
   
 
 
@@ -288,16 +284,6 @@ defaults:
       author: default
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      author: default
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
@@ -307,20 +293,6 @@ defaults:
       author_profile: true
       author: default
       share: true
-  - scope:
-      path: ""
-      type: photography
-    values:
-      author_profile: true
-      author: photography
-  # _pages/photography
-  - scope:
-      path: "photography"
-      type: pages
-    values:
-      author_profile: true
-      author: photography
-
 
 # Sass/SCSS
 sass:

@@ -2,6 +2,7 @@
 title: "Foundations of Algorithms and Complexity [Hebrew]"
 collection: teaching
 type: "Undergraduate course"
+role: "Teaching Assistant"
 permalink: /teaching/foundations-of-algorithms-and-complexity
 venue: "Ben-Gurion University of the Negev, Department of Industrial Engineering and Management"
 date: 2022-10-01
@@ -10,9 +11,11 @@ location: "Beer-Sheva, Israel"
 ---
 
 
+**Role:** Teaching Assistant
+
 ### Course overview
-This introductory course in algorithms and computational complexity is taught by Prof. [Danny Hermelin](https://cris.bgu.ac.il/en/persons/dan-hermelin/). It covers sorting algorithms, data structures for efficient search, and fundamental graph algorithms. The final part of the course is devoted to the **P vs NP** question - one of the most profound open problems in computer science.
-Students learn to design algorithms using generic paradigms for combinatorial problems and to analyze their **time complexity** formally.
+This introductory course in algorithms and computational complexity is taught by Prof. [Danny Hermelin](https://cris.bgu.ac.il/en/persons/dan-hermelin/). It covers sorting algorithms, data structures for efficient search, and fundamental graph algorithms. The final part of the course is devoted to the P versus NP question.
+Students learn to design algorithms using generic paradigms for combinatorial problems and to analyze their time complexity formally.
 
 ### Course materials
 
@@ -28,7 +31,7 @@ Below are the exercise slide decks used throughout the semester:
 | # | Topic | PDF |
 |---|-------|-----|
 | 01 | Big-O Notation | [EX01P.pdf]({{ "/files/EX01P.pdf" | relative_url }}) |
-| 02 | Count Sort | [EX02P.pdf]({{ "/files/EX02P.pdf" | relative_url }}) |
+| 02 | Counting Sort | [EX02P.pdf]({{ "/files/EX02P.pdf" | relative_url }}) |
 | 03 | Merge Sort | [EX03P.pdf]({{ "/files/EX03P.pdf" | relative_url }}) |
 | 04 | Binary Search Trees | [EX04P.pdf]({{ "/files/EX04P.pdf" | relative_url }}) |
 | 05 | Binary Heaps | [EX05P.pdf]({{ "/files/EX05P.pdf" | relative_url }}) |

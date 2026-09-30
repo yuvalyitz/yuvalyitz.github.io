@@ -1,98 +1,61 @@
-# yuvalyitz.github.io
+# Yuval Itzhaki’s academic website
 
-Source for [https://yuvalyitz.github.io](https://yuvalyitz.github.io), built with
-[Academic Pages](https://academicpages.github.io/), a Jekyll template for academic
-personal sites.
-
-## Running locally
-
-```bash
+```sh
 LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll serve --port 4000
 ```
 
-Then open [http://localhost:4000](http://localhost:4000). Jekyll watches the
-repo and rebuilds on save, so just edit and refresh.
+Run from the repository root, then open http://localhost:4000.
 
-The `LANG`/`LC_ALL` prefix works around a local-only issue: without a UTF-8
-locale, Jekyll fails on a non-ASCII character in one of the theme's vendored
-`.scss` files (`Invalid US-ASCII character "\xE2"`). If your shell already
-defaults to a UTF-8 locale you can drop the prefix and just run
-`bundle exec jekyll serve --port 4000`.
+Source for https://yuvalyitz.github.io, built with Jekyll and AcademicPages.
 
-First time setting up, or after pulling changes to the `Gemfile`, run
-`bundle install` first. See [Setup](#setup) below if that fails or you don't
-have Ruby/Bundler yet.
+## First-time setup
 
-## Setup
+Use Ruby 3.2 and Bundler, then install the pinned gems:
 
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and open `.gitignore` then add `vendor` inside it.
-
-1. Run `bundle exec jekyll serve --port 4000` (see [Running locally](#running-locally) above for the macOS locale caveat).
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
+```sh
+bundle install
 ```
 
-You should now be able to access the website from `localhost:4000`.
+Restart Jekyll after changing `_config.yml`.
+Local previews do not load Google Analytics.
 
-### Using the DevContainer in VS Code
+## Editing
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+- `_config.yml`: shared author details, site settings, and analytics.
+- `_data/authors.yml`: photography avatar and bio overrides.
+- `_data/navigation.yml`: main navigation.
+- `_pages/`, `_publications/`, `_talks/`, `_teaching/`: public content.
+- `_data/albums.yml`: album titles, image paths, dimensions, and thumbnails.
+- `assets/js/gallery.js`: gallery behavior.
 
-# Maintenance
+Keep original photographs outside the public asset folders. `local/` is ignored by Git and excluded from Jekyll; the cleanup backup is stored there. Export sanitized, resized web copies and thumbnails with `python3 scripts/prepare_photos.py` before publishing. The exporter needs ImageMagick, ExifTool, FFmpeg, and PyYAML. It preserves animation and applies photo orientation before removing metadata.
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+## JavaScript
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+```sh
+npm ci
+npm run build:js
+```
 
-## Bugfixes and enhancements
+Commit both dependency lockfiles when updating dependencies. `main.min.js` includes jQuery and the theme plugins; do not load another copy of jQuery.
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+## Build and deployment
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+```sh
+JEKYLL_ENV=production bundle exec jekyll build
+python3 scripts/check_site.py _site
+```
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+The Pages workflow builds and deploys pushes to `master`. Local edits are not published until pushed. Development helpers, notebooks, backups, and demo files are excluded from the built site.
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+## Docker
+
+```sh
+docker compose up --build
+```
+
+The container uses UID 1000. If bind-mount ownership differs on your system, adjust the container user to match your account; do not make the repository world-writable.
+
+## Credits
+
+Based on [AcademicPages](https://github.com/academicpages/academicpages.github.io) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes). Bundled libraries retain their license notices.

@@ -9,7 +9,7 @@ author_profile: true
   <img src="/images/projects/scheduling-zoo.png" alt="Screenshot of the Parameterized Scheduling Zoo problem map" style="border: 1px solid var(--global-border-color); border-radius: 6px;">
 </a>
 
-A visual browser for [The Scheduling Zoo](https://schedulingzoo.lip6.fr/) with the aim to allow researchers to quickly identify open problems and collaboratively build a knowledge base.
+An interactive browser for scheduling complexity results, built on [The Scheduling Zoo](https://schedulingzoo.lip6.fr/). Explore related problems, follow reductions, and identify open questions.
 
 <p>
   <a href="https://yuvalyitz.github.io/parameterized-scheduling-zoo/#/schedulingzoo" class="btn btn--large">Open the Zoo &rarr;</a>
@@ -20,16 +20,14 @@ A visual browser for [The Scheduling Zoo](https://schedulingzoo.lip6.fr/) with t
 
 - **Browse the Scheduling Zoo.** Filter problems in Graham's three-field notation α \| β \| γ, and follow reductions between them.
 - **Design problem maps.** Build your own map of related problems and export it as TikZ.
-- **Look up results per parameter.** See which parameterizations are known to be tractable, which are hard, and which are still open, with references.
-- Change classification and create reductions between problems, and **share your results** (click "Send my classifications").
+- **Look up results per parameter.** Explore recorded tractability and hardness results by parameter, with references. Missing entries may reflect gaps in the dataset.
+- **Contribute results.** Propose classifications and reductions, then submit them using “Send my classifications”.
 
 <div class="notice--warning" markdown="1">
 **Work in progress.** The parameterized results are an early seed dataset and are still being checked. If you find a missing result, a wrong classification, or a better reference, please [email me](mailto:{{ site.author.email }}) or [open an issue](https://github.com/yuvalyitz/parameterized-scheduling-zoo/issues).
 </div>
 
-It is today more possible than ever[^db-initiatives] to organize our technical results in a structured, robust database that gives researchers a bird's-eye view over the field. If you wish to collaborate, [write me an email](mailto:{{ site.author.email }}).
-
-[^db-initiatives]: Using initiatives like [laxarchive.org](https://laxarchive.org/).
+I’m developing the Zoo into a shared reference for scheduling complexity. Contributions of results, references, and corrections are welcome. If you would like to collaborate, [email me](mailto:{{ site.author.email }}).
 
 ### Acknowledgements
 

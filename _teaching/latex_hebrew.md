@@ -1,5 +1,5 @@
 ---
-title: "Latex Hebrew Templates"
+title: "Hebrew LaTeX Templates"
 collection: teaching
 type: "Templates"
 permalink: /teaching/latex-hebrew
@@ -9,10 +9,9 @@ location: "Beer-Sheva, Israel"
 ---
 
 ### LaTeX resources
-Hebrew-compatible LaTeX templates designed to facilitate the preparation of clear, bilingual slides and documents.
+LaTeX templates for slides and documents in Hebrew and English.
 
-Please do not hesitate to [shoot me an email](mailto:{{ site.author.email }}) in case you are having trouble using the templates. 
-This is a work in progress and I am happy to improve its ususability to promote the use of LaTex in Hebrew presentations.
+If you encounter a problem or have a suggestion, please [email me](mailto:{{ site.author.email }}).
 
 ---
 ### Overleaf Templates

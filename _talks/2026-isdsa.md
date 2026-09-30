@@ -6,10 +6,10 @@ permalink: /talks/2026-06-10-isdsa-interval-scheduling-machine-eligibility/
 venue: "Israel Data Science and Statistics Association (ISDSA) Annual Conference"
 date: 2026-06-10
 location: "Tel Aviv, Israel"
-eventurl: "https://dzahox-zgpvh.maillist-manage.net/click/1101647e44f7c8052/1101647e44f7c55ce"
+eventurl: "https://statistics.org.il/conferences-events/כנס-האיגוד-2026-פרטים-והרשמה/"
 ---
 
-[Poster](https://statistics.org.il/wp-content/uploads/2026/06/posters-2026-Yuval-Itzhaki.pdf) presented at the [Israel Data Science and Statistics Association (ISDSA) Annual Conference](https://dzahox-zgpvh.maillist-manage.net/click/1101647e44f7c8052/1101647e44f7c55ce), held on June 10, 2026, at Eretz Israel Museum, Tel Aviv.
+[Poster](https://statistics.org.il/wp-content/uploads/2026/06/posters-2026-Yuval-Itzhaki.pdf) presented at the [Israel Data Science and Statistics Association (ISDSA) Annual Conference](https://statistics.org.il/conferences-events/כנס-האיגוד-2026-פרטים-והרשמה/), held on June 10, 2026, at Eretz Israel Museum, Tel Aviv.
 
 ## Authors
 
@@ -19,4 +19,4 @@ Danny Hermelin, Yuval Itzhaki, Hendrik Molter, and Dvir Shabtay.
 
 We provide new parameterized complexity results for Interval Scheduling with Machine Eligibility. In this problem, a set of jobs is given to be processed non-preemptively on a set of machines. Each job has a processing time, a deadline, a weight, and a set of eligible machines that can process it. The goal is to find a maximum-weight subset of jobs that can each be processed on one of its eligible machines such that it completes exactly at its deadline.
 
-We focus on two parameters: the number of machines \(m\) and the largest processing time \(p\). Our main contribution is showing W[1]-hardness when parameterized by \(m\). This answers Open Problem 8 from Mnich and van Bevern's list of 15 open problems in the parameterized complexity of scheduling problems.
+We focus on two parameters: the number of machines $$m$$ and the largest processing time $$p$$. Our main contribution is showing W[1]-hardness when parameterized by $$m$$. This answers Open Problem 8 from Mnich and van Bevern's list of 15 open problems in the parameterized complexity of scheduling problems.

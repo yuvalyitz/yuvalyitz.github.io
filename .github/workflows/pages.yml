@@ -28,9 +28,12 @@ jobs:
           ruby-version: "3.2"
           bundler-cache: true
 
-      - name: Build site (match local dev)
+      - name: Build production site
         run: |
-          JEKYLL_ENV=development bundle exec jekyll build
+          JEKYLL_ENV=production bundle exec jekyll build
+
+      - name: Check published output
+        run: python3 scripts/check_site.py _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

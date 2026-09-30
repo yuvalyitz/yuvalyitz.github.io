@@ -1,29 +1,3 @@
-# Authors
-
-default:
-  name        : "Yuval Itzhaki"
-  avatar      : "profile.png"
-  bio         : "Algorithms Researcher"
-  employer    : "Technische Universität Hamburg"
-  # email       : "ityuval@bgu.ac.il"
-  email       : "yuval.itzhaki@tuhh.de"
-  googlescholar: "https://scholar.google.com/citations?user=_msHpNAAAAAJ&hl=en&oi=ao"
-  github: "yuvalyitz"
-  arxiv       : "http://arxiv.org/a/itzhaki_y_1"
-  orcid       : "https://orcid.org/0000-0002-5309-7075"
-  dblp        : "https://dblp.org/pid/309/5696.html"
-  linkedin    : "yuval-itzhaki-917a6a11b"
-
 photography:
-  name        : "Yuval Itzhaki"
-  avatar      : "profile_photography.jpg"
-  bio         : "(Failed) Photographer"
-  employer    : "Technische Universität Hamburg"
-  # email       : "ityuval@bgu.ac.il"
-  email       : "yuval.itzhaki@tuhh.de"
-  googlescholar: "https://scholar.google.com/citations?user=_msHpNAAAAAJ&hl=en&oi=ao"
-  github: "yuvalyitz"
-  arxiv       : "http://arxiv.org/a/itzhaki_y_1"
-  orcid       : "https://orcid.org/0000-0002-5309-7075"
-  dblp        : "https://dblp.org/pid/309/5696.html"
-  linkedin    : "yuval-itzhaki-917a6a11b"
+  avatar: "profile_photography.jpg"
+  bio: "(Failed) Photographer"

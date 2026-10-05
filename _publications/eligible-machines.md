@@ -9,6 +9,7 @@ venue: 'Journal of Computer and System Sciences, Volume 144, p.103533'
 slidesurl: '/files/Hardness_Unrelated2023_slides_.pdf'
 paperurl: 'https://doi.org/10.1016/j.jcss.2024.103533'
 bibtexurl: 'https://yuvalyitz.github.io/files/hermelin2024parameterized.bib'
+laxurl: 'https://laxarchive.org/lax-888481/'
 citation: 'Hermelin, D., Itzhaki, Y., Molter, H. and Shabtay, D., 2024. On the parameterized complexity of interval scheduling with eligible machine sets. Journal of Computer and System Sciences, 144, p.103533.'
 ---
 We provide new parameterized complexity results for *Interval Scheduling on Eligible Machines*. In this problem, a set of $$n$$ jobs is given to be processed non-preemptively on a set of $$m$$ machines. Each job has a processing time, a deadline, a weight, and a set of eligible machines that can process it. The goal is to find a maximum-weight subset of jobs that can each be processed on one of its eligible machines such that it completes exactly at its deadline.

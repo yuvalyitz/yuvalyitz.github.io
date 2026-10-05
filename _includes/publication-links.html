@@ -1,9 +1,10 @@
 {% assign publication = include.publication %}
 {% if publication.citation %}<p class="publication-citation">{{ publication.citation }}</p>{% endif %}
-{% if publication.paperurl or publication.slidesurl or publication.bibtexurl %}
+{% if publication.paperurl or publication.slidesurl or publication.bibtexurl or publication.laxurl %}
 <p class="publication-links">
   {% if publication.paperurl %}<a href="{{ publication.paperurl }}">View paper</a>{% endif %}
   {% if publication.slidesurl %}{% if publication.paperurl %} · {% endif %}<a href="{{ publication.slidesurl | relative_url }}">Slides</a>{% endif %}
   {% if publication.bibtexurl %}{% if publication.paperurl or publication.slidesurl %} · {% endif %}<a href="{{ publication.bibtexurl }}">BibTeX</a>{% endif %}
+  {% if publication.laxurl %}{% if publication.paperurl or publication.slidesurl or publication.bibtexurl %} · {% endif %}<a href="{{ publication.laxurl }}">Lean 4 Formalization</a>{% endif %}
 </p>
 {% endif %}

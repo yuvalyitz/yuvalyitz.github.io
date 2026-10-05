@@ -9,6 +9,7 @@ slidesurl: '/files/jit2026flowshop.pdf'
 bibtexurl: 'https://yuvalyitz.github.io/files/heeger2026flowshop.bib'
 venue: European Journal of Operational Research (EJOR), Volume 333, Issue 3, Pages 652–664
 paperurl: 'https://doi.org/10.1016/j.ejor.2026.02.017'
+laxurl: 'https://laxarchive.org/lax-496464/'
 citation: 'Heeger, K., Hermelin, D., Itzhaki, Y., Schieber, B., and Shabtay, D. (2026). Just-in-Time Scheduling in Two-Stage Flexible Flow Shops. European Journal of Operational Research.'
 ---
 We study the problem of Just-in-Time (JIT) scheduling in a two-stage flexible flow shop, denoted

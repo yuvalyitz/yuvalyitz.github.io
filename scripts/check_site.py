@@ -33,7 +33,7 @@ for page in root.rglob('*.html'):
             continue
         if parts.netloc and parts.netloc != 'yuvalyitz.github.io':
             continue
-        if not parts.path or parts.path.startswith('/parameterized-scheduling-zoo/'):
+        if not parts.path or parts.path.startswith(('/lean-scheduling-zoo/', '/parameterized-scheduling-zoo/')):
             continue
         target = (root / unquote(parts.path).lstrip('/')) if parts.path.startswith('/') else (page.parent / unquote(parts.path))
         if not target.exists() and not target.with_suffix(".html").exists():

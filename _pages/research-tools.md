@@ -20,15 +20,15 @@ Tools I develop for exploring scheduling problems and research literature.
 
 <div class="tool-card">
   <div class="tool-card__img">
-    <a href="/scheduling-zoo/"><img src="/images/projects/scheduling-zoo.png" alt="Parameterized Scheduling Zoo screenshot"></a>
+    <a href="/scheduling-zoo/"><img src="/images/projects/scheduling-zoo.png" alt="Lean Scheduling Zoo screenshot"></a>
   </div>
   <div class="tool-card__body">
-    <h2>The Parameterized Scheduling Zoo</h2>
-    <p>An interactive browser for scheduling complexity results, built on <a href="https://schedulingzoo.lip6.fr/">The Scheduling Zoo</a>. Explore related problems, follow reductions, and identify open questions.</p>
+    <h2>The Lean Scheduling Zoo</h2>
+    <p>An interactive browser for scheduling complexity results, built on <a href="https://schedulingzoo.lip6.fr/">The Scheduling Zoo</a>. Explore related problems, follow reductions, and identify open questions. Problems and reductions link to their Lean formalization on <a href="https://laxarchive.org/">Lax</a>.</p>
     <p>
-      <a href="https://yuvalyitz.github.io/parameterized-scheduling-zoo/#/schedulingzoo" class="btn">Open the Zoo</a>
+      <a href="https://yuvalyitz.github.io/lean-scheduling-zoo/#/schedulingzoo" class="btn">Open the Zoo</a>
       <a href="/scheduling-zoo/" class="btn btn--inverse">About</a>
-      <a href="https://github.com/yuvalyitz/parameterized-scheduling-zoo" class="btn btn--inverse"><i class="fab fa-github"></i> Code</a>
+      <a href="https://github.com/yuvalyitz/lean-scheduling-zoo" class="btn btn--inverse"><i class="fab fa-github"></i> Code</a>
     </p>
   </div>
 </div>

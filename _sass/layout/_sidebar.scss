@@ -266,3 +266,33 @@
     }
   }
 }
+
+/* Sidebar links: every icon sits in the same fixed-width box, so the text
+   starts at the same x for Font Awesome and Academicons glyphs alike. */
+.author__urls li i {
+  display: inline-block;
+  box-sizing: content-box;
+  width: 1.5em;
+  padding-right: 0;
+  margin-right: 0.5em;
+  text-align: center;
+  vertical-align: middle;
+
+  /* Academicons glyphs run small: scale the glyph, keep the box the same size */
+  &.ai {
+    font-size: 1.25em;
+    width: 1.2em;
+    margin-right: 0.4em;
+  }
+}
+
+/* Long affiliation/location lines wrap under the text, not under the icon */
+.author__urls li.author__desktop {
+  white-space: normal;
+  padding-left: 2em;
+  text-indent: -2em;
+
+  i {
+    text-indent: 0;
+  }
+}

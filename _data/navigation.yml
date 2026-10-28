@@ -8,8 +8,8 @@ main:
   url: /teaching/
 - title: Scheduling Zoo
   url: /scheduling-zoo/
-- title: Research Tools
-  url: /research-tools/
+# Research Tools is hidden until it has at least two tools.
+# Its page (_pages/research-tools.md) is unpublished, not deleted.
 - title: CV
   url: /cv/
 - title: Photography

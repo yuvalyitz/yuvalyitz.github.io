@@ -14,7 +14,7 @@ I am a postdoctoral researcher at [Technische Universität Hamburg](https://www.
 My research focuses on combinatorial optimization, scheduling, interval graphs, and parameterized complexity. I am especially interested in industry-motivated optimization problems and in understanding the combinatorial structure that makes such problems tractable or hard.
 
 I completed my Ph.D. in Industrial Engineering and Management, specializing in algorithms and operations research, at [Ben-Gurion University of the Negev](https://www.bgu.ac.il/en), advised by Prof. [Danny Hermelin](https://cris.bgu.ac.il/en/persons/dan-hermelin/) and Prof. [Dvir Shabtay](https://cris.bgu.ac.il/en/persons/dvir-shabtay/).
-My thesis, 'Scheduling with Intervals', studies how interval structure can be exploited in the design and analysis of algorithms for scheduling problems.
+My thesis, ['Scheduling with Intervals'](/publication/phd-thesis-scheduling-with-intervals), studies how interval structure can be exploited in the design and analysis of algorithms for scheduling problems.
 
 Before my Ph.D., I completed an M.Sc. in Computer Science at the [Technische Universität Berlin](https://www.tu.berlin/), advised by Prof. [Rolf Niedermeier](https://www.tu.berlin/akt/ueber-uns/leitung/rolf-niedermeier) and Prof. [Danny Hermelin](https://cris.bgu.ac.il/en/persons/dan-hermelin/). My master’s thesis studied temporal interval graphs.
 

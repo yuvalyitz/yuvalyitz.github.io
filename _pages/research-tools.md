@@ -3,8 +3,7 @@ layout: single
 title: "Research Tools"
 permalink: /research-tools/
 author_profile: true
-redirect_from:
-  - /portfolio/
+published: false
 ---
 
 <style>

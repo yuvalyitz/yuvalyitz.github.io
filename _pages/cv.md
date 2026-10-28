@@ -21,7 +21,7 @@ Education
 ======
 * **Ph.D. in Industrial Engineering & Management (Algorithms & Operations Research)**<br>
 Ben-Gurion University of the Negev, 2022–2026<br>
-  Thesis: Scheduling with Intervals<br>
+  Thesis: [Scheduling with Intervals](/publication/phd-thesis-scheduling-with-intervals)<br>
   Advisors: Prof. Danny Hermelin & Prof. Dvir Shabtay<br>
 
 * **M.Sc. in Computer Science**<br>

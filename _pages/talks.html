@@ -8,3 +8,26 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+
+<h2 id="recommended">Talks I recommend</h2><hr />
+
+<style>
+  .rec-talk { display: flex; flex-wrap: wrap; gap: 1em; align-items: flex-start; margin-bottom: 1.5em; }
+  .rec-talk__thumb { flex: 0 0 200px; max-width: 100%; }
+  .rec-talk__thumb img { display: block; width: 100%; height: auto; border: 1px solid var(--global-border-color); border-radius: 6px; }
+  .rec-talk__body { flex: 1 1 240px; min-width: 0; }
+  .rec-talk__body h3 { margin-top: 0; }
+  .rec-talk__body p { margin: 0.25em 0; }
+</style>
+
+{% for talk in site.data.favorite_talks %}
+<div class="rec-talk">
+  <a class="rec-talk__thumb" href="{{ talk.url }}" aria-hidden="true" tabindex="-1"><img src="{{ talk.thumb }}" alt="" loading="lazy"></a>
+  <div class="rec-talk__body">
+    <h3 class="archive__item-title"><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
+    <p class="page__meta">{{ talk.speaker }} · {{ talk.venue }} · {{ talk.length }}</p>
+    <p class="archive__item-excerpt">{{ talk.note }}</p>
+    {% if talk.extra %}<p class="archive__item-excerpt">{{ talk.extra }}</p>{% endif %}
+  </div>
+</div>
+{% endfor %}

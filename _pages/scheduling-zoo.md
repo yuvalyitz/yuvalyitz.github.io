@@ -2,6 +2,9 @@
 layout: single
 title: "The Lean Scheduling Zoo"
 permalink: /scheduling-zoo/
+redirect_from:
+  - /research-tools/
+  - /portfolio/
 author_profile: true
 ---
 

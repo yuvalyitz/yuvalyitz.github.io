@@ -64,3 +64,12 @@
   url: "https://www.youtube.com/watch?v=LKrwhjOI8Nc"
   thumb: "/images/talks/LKrwhjOI8Nc.jpg"
   note: "Thoughts on the future of math."
+
+- title: "Messages For The Future"
+  speaker: "Vsauce"
+  venue: "YouTube"
+  length: "22 min"
+  url: "https://www.youtube.com/watch?v=GDrBIKOR01c"
+  thumb: "/images/talks/GDrBIKOR01c.jpg"
+  note: "On messages sent to the future."
+  extra: 'What tickled my imagination was primarily the part about the <a href="https://libraryofbabel.info/">Library of Babel</a> towards the end of the video.'

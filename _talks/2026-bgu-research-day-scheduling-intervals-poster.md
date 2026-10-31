@@ -11,6 +11,10 @@ posterurl: "/files/poster_eligible_machines.pdf"
 
 [Poster](/files/poster_eligible_machines.pdf) presentation at the Department of Industrial Engineering and Management Research Day, Ben-Gurion University.
 
+## Authors
+
+Danny Hermelin, Yuval Itzhaki, and Dvir Shabtay.
+
 ## Note
 
 An earlier version of this poster was awarded Best Poster.

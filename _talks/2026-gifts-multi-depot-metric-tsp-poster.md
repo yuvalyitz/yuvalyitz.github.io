@@ -10,7 +10,7 @@ eventurl: "https://gifts.scienceabroad.org.il/"
 posterurl: "/files/poster_multi_depot_metric_tsp.pdf"
 ---
 
-[Poster](/files/poster_multi_depot_metric_tsp.pdf) to be presented at the [German-Israeli Forum for Tomorrow's Scientists (GIFTS) 2026](https://gifts.scienceabroad.org.il/), organized by the German-Israeli Foundation for Scientific Research and Development (GIF) and ScienceAbroad, held on November 5, 2026, in Berlin as part of Berlin Science Week.
+[Poster](/files/poster_multi_depot_metric_tsp.pdf) presented at the [German-Israeli Forum for Tomorrow's Scientists (GIFTS) 2026](https://gifts.scienceabroad.org.il/), organized by the German-Israeli Foundation for Scientific Research and Development (GIF) and ScienceAbroad, held on November 5, 2026, in Berlin as part of Berlin Science Week.
 
 ## Authors
 

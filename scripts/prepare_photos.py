@@ -14,6 +14,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 BACKUP = ROOT / 'local/pre-cleanup'
 ALBUMS = [
+    ('elbphilharmonie', 'Elbphilharmonie, Hamburg'),
     ('construction', 'Concrete Work at Elwood, Melbourne'),
     ('alps', 'Pointe Helbronner, Mont Blanc'), ('elma', 'Elma'),
     ('ramon', 'Mitzpe Ramon, Timna Park'), ('rajasthan', 'Rajasthan'),

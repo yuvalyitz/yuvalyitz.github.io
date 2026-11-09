@@ -1,3 +1,101 @@
+- slug: elbphilharmonie
+  title: Elbphilharmonie, Hamburg
+  images:
+  - src: /images/photography/elbphilharmonie/001.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/001.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 1
+  - src: /images/photography/elbphilharmonie/002.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/002.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 2
+  - src: /images/photography/elbphilharmonie/003.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/003.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 3
+  - src: /images/photography/elbphilharmonie/004.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/004.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 4
+  - src: /images/photography/elbphilharmonie/005.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/005.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 5
+  - src: /images/photography/elbphilharmonie/006.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/006.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 6
+  - src: /images/photography/elbphilharmonie/007.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/007.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 7
+  - src: /images/photography/elbphilharmonie/008.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/008.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 8
+  - src: /images/photography/elbphilharmonie/009.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/009.jpg.webp
+    width: 2400
+    height: 1583
+    alt: Elbphilharmonie, Hamburg — photograph 9
+  - src: /images/photography/elbphilharmonie/010.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/010.jpg.webp
+    width: 1558
+    height: 2400
+    alt: Elbphilharmonie, Hamburg — photograph 10
+  - src: /images/photography/elbphilharmonie/011.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/011.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 11
+  - src: /images/photography/elbphilharmonie/012.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/012.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 12
+  - src: /images/photography/elbphilharmonie/013.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/013.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 13
+  - src: /images/photography/elbphilharmonie/014.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/014.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 14
+  - src: /images/photography/elbphilharmonie/015.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/015.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 15
+  - src: /images/photography/elbphilharmonie/016.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/016.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 16
+  - src: /images/photography/elbphilharmonie/017.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/017.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 17
+  - src: /images/photography/elbphilharmonie/018.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/018.jpg.webp
+    width: 2400
+    height: 1599
+    alt: Elbphilharmonie, Hamburg — photograph 18
+  - src: /images/photography/elbphilharmonie/019.jpg
+    thumbnail: /images/thumbnails/elbphilharmonie/019.jpg.webp
+    width: 2400
+    height: 1745
+    alt: Elbphilharmonie, Hamburg — photograph 19
 - slug: construction
   title: Concrete Work at Elwood, Melbourne
   images:

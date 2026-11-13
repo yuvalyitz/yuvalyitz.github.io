@@ -10,7 +10,9 @@ period: "Winter 2026/27"
 location: "Hamburg, Germany"
 ---
 
-**Role:** Organizer, together with Prof. [Matthias Mnich](https://www.tuhh.de/algo/research/mnich)
+**Role:** Organizer, together with Prof. [Matthias Mnich](https://www.tuhh.de/algo/research/mnich), at the [Institute for Algorithms and Complexity](https://www.tuhh.de/algo/homepage)
+
+**Course page:** [Seminar EIM: Algorithms in the Wild](https://www.tuhh.de/algo/teaching/seminare-eim-algorithms-in-the-wild)
 
 ### Seminar overview
 Many computational problems have theoretically efficient algorithms that do not work well in practice: the problems are too abstracted, the algorithms ignore the specifics of real-life data, or their analysis hides large constants in the running time. In this seminar, students seek insights into such algorithms and use the methods of Algorithm Engineering to implement fundamental algorithmic primitives efficiently, in an accessible and contemporary way, in a modern language such as C++, Rust, or Python.

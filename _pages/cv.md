@@ -28,11 +28,12 @@ redirect_from:
 <div class="cv-entry">
   <div class="cv-row"><strong>Postdoctoral Researcher | Technische Universität Hamburg</strong><span>2026.09 - Present</span></div>
   <div class="cv-sub">Hamburg, Germany</div>
-  <ul><li>Institute for Algorithms and Complexity, working with Prof. Matthias Mnich.</li></ul>
+  <ul><li><a href="https://www.tuhh.de/algo/homepage">Institute for Algorithms and Complexity</a>, working with Prof. Matthias Mnich.</li></ul>
 </div>
 <div class="cv-entry">
   <div class="cv-row"><strong>Postdoctoral Researcher | Ben–Gurion University of the Negev</strong><span>2026.04 - 2026.08</span></div>
   <div class="cv-sub">Be'er Sheva, Israel</div>
+  <ul><li>Advisors: Prof. Danny Hermelin &amp; Prof. Dvir Shabtay</li></ul>
 </div>
 
 ## Education
@@ -41,7 +42,7 @@ redirect_from:
   <div class="cv-row"><strong>Department of Industrial Engineering, Ben–Gurion University of the Negev</strong><span>Be'er Sheva, Israel</span></div>
   <div class="cv-row cv-sub"><span>Ph.D. in Algorithms and Operations Research</span><span>2022.10 - 2026.03</span></div>
   <ul>
-    <li>Thesis Title: <a href="/publication/phd-thesis-scheduling-with-intervals">Scheduling with Intervals</a></li>
+    <li>Thesis Title: <a href="/files/thesis_scheduling_with_intervals.pdf">Scheduling with Intervals</a></li>
     <li>Advisors: Prof. Danny Hermelin &amp; Prof. Dvir Shabtay</li>
     <li>Research area: Algorithms, Parameterized Complexity, Operations Research.</li>
   </ul>
@@ -67,10 +68,10 @@ redirect_from:
 ## Honors and Awards
 
 <div class="cv-awards">
-  <div class="cv-row"><span>Kreitman School Dean’s List Certificate of Excellence (PhD Studies Award)</span><span>2025</span></div>
-  <div class="cv-row"><span>Kreitman Zin doctoral scholarship for outstanding students</span><span>2024</span></div>
-  <div class="cv-row"><span>Bertie Lubner prize for Community Service</span><span>2025</span></div>
   <div class="cv-row"><span>Best <a href="/files/poster_eligible_machines.pdf">Poster</a> Award, IE&amp;M Research Day, Ben–Gurion University of the Negev</span><span>2026</span></div>
+  <div class="cv-row"><span>Kreitman School Dean’s List Certificate of Excellence (PhD Studies Award)</span><span>2025</span></div>
+  <div class="cv-row"><span>Bertie Lubner prize for Community Service</span><span>2025</span></div>
+  <div class="cv-row"><span>Kreitman Zin doctoral scholarship for outstanding students</span><span>2024</span></div>
 </div>
 
 ## Publications
@@ -93,19 +94,21 @@ redirect_from:
 
 ## Posters
 
-1. **Itzhaki, Y.** and Mnich, M., Multi-Depot Metric TSP. [Poster](/files/poster_multi_depot_metric_tsp.pdf) session at [*Mind-IL 2026, Computer Science Conference in Memory of Michael Rabin*, Tel Aviv, 2026](https://www.mind-il.org/conference/6a3031aea90316da446a7899).
-2. Hermelin, D., **Itzhaki, Y.**, Molter, H., and Shabtay, D., Interval Scheduling with Machine Eligibility. [Poster](https://statistics.org.il/wp-content/uploads/2026/06/posters-2026-Yuval-Itzhaki.pdf) session at [*Israel Data Science and Statistics Association Annual Conference*, Tel Aviv, 2026](https://statistics.org.il/conferences-events/כנס-האיגוד-2026-פרטים-והרשמה/).
-3. Hermelin, D., **Itzhaki, Y.**, Molter, H., and Shabtay, D., Interval Scheduling with Eligible Machines. [Poster](/files/poster_eligible_machines.pdf) Session at [*Pioneering Israeli Science, Science Abroad*, New York, 2026](https://abstractbook.scienceabroad.org.il/).
-4. Hermelin, D., **Itzhaki, Y.**, and Shabtay, D., Scheduling Intervals. **Awarded Best [Poster](/files/poster_eligible_machines.pdf)** at the Department of Industrial Engineering and Management Research Day, Ben–Gurion University, 2026.
+1. **Itzhaki, Y.** and Mnich, M., Multi-Depot Metric TSP. [Poster](/files/poster_multi_depot_metric_tsp.pdf) session at [*German-Israeli Forum for Tomorrow's Scientists (GIFTS), GIF and ScienceAbroad*, Berlin, 2026](https://gifts.scienceabroad.org.il/).
+2. Hermelin, D., **Itzhaki, Y.**, Molter, H., and Shabtay, D., Interval Scheduling with Machine Eligibility. [Poster](/files/poster_eligible_machines.pdf) session at [*German-Israeli Forum for Tomorrow's Scientists (GIFTS), GIF and ScienceAbroad*, Berlin, 2026](https://gifts.scienceabroad.org.il/).
+3. **Itzhaki, Y.** and Mnich, M., Multi-Depot Metric TSP. [Poster](/files/poster_multi_depot_metric_tsp.pdf) session at [*Mind-IL 2026, Computer Science Conference in Memory of Michael Rabin*, Tel Aviv, 2026](https://www.mind-il.org/conference/6a3031aea90316da446a7899).
+4. Hermelin, D., **Itzhaki, Y.**, Molter, H., and Shabtay, D., Interval Scheduling with Machine Eligibility. [Poster](https://statistics.org.il/wp-content/uploads/2026/06/posters-2026-Yuval-Itzhaki.pdf) session at [*Israel Data Science and Statistics Association Annual Conference*, Tel Aviv, 2026](https://statistics.org.il/conferences-events/כנס-האיגוד-2026-פרטים-והרשמה/).
+5. Hermelin, D., **Itzhaki, Y.**, Molter, H., and Shabtay, D., Interval Scheduling with Eligible Machines. [Poster](/files/poster_eligible_machines.pdf) Session at [*Pioneering Israeli Science, Science Abroad*, New York, 2026](https://abstractbook.scienceabroad.org.il/).
+6. Hermelin, D., **Itzhaki, Y.**, and Shabtay, D., Scheduling Intervals. **Awarded Best [Poster](/files/poster_eligible_machines.pdf)** at the Department of Industrial Engineering and Management Research Day, Ben–Gurion University, 2026.
 
 ## Teaching
 
 <div class="cv-entry">
   <div class="cv-row"><strong>Technische Universität Hamburg</strong><span>Hamburg, Germany</span></div>
-  <div class="cv-row cv-sub"><span>Institute for Algorithms and Complexity</span><span>2026.09 - Present</span></div>
+  <div class="cv-row cv-sub"><span><a href="https://www.tuhh.de/algo/homepage">Institute for Algorithms and Complexity</a></span><span>2026.09 - Present</span></div>
   <ul>
-    <li>Seminar “<a href="/teaching/seminar-algorithms-in-the-wild">Algorithms in the Wild</a>”, organizer with Prof. Matthias Mnich, Winter 2026/27.</li>
-    <li>“<a href="/teaching/algorithms-and-data-structures">Algorithms and Data Structures</a>”, tutorials, Winter 2026/27.</li>
+    <li>Seminar “<a href="/teaching/seminar-algorithms-in-the-wild">Algorithms in the Wild</a>” (<a href="https://www.tuhh.de/algo/teaching/seminare-eim-algorithms-in-the-wild">course page</a>), organizer with Prof. Matthias Mnich, Winter 2026/27.</li>
+    <li>“<a href="/teaching/algorithms-and-data-structures">Algorithms and Data Structures</a>”, tutorials (<a href="https://www.tuhh.de/algo/teaching/core-module-algorithms-and-data-structures">course page</a>), Winter 2026/27.</li>
   </ul>
 </div>
 <div class="cv-entry">

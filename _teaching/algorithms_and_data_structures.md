@@ -13,6 +13,6 @@ location: "Hamburg, Germany"
 **Role:** Teaching Assistant
 
 ### Course overview
-This introductory course on the design and analysis of algorithms and data structures is taught by Prof. [Matthias Mnich](https://www.tuhh.de/algo/research/mnich) at the Institute for Algorithms and Complexity. I teach tutorials for the course.
+This introductory course on the design and analysis of algorithms and data structures is taught by Prof. [Matthias Mnich](https://www.tuhh.de/algo/research/mnich) at the [Institute for Algorithms and Complexity](https://www.tuhh.de/algo/homepage). I teach tutorials for the course.
 
-Course information is on the [institute's teaching page](https://www.tuhh.de/algo/teaching.html).
+Course information is on the [institute's course page](https://www.tuhh.de/algo/teaching/core-module-algorithms-and-data-structures).

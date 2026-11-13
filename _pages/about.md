@@ -9,7 +9,7 @@ redirect_from:
 
 About
 ======
-I am a postdoctoral researcher at [Technische Universität Hamburg](https://www.tuhh.de), working with Prof. [Matthias Mnich](https://www.tuhh.de/algo/research/mnich) at the Institute for Algorithms and Complexity.
+I am a postdoctoral researcher at [Technische Universität Hamburg](https://www.tuhh.de), working with Prof. [Matthias Mnich](https://www.tuhh.de/algo/research/mnich) at the [Institute for Algorithms and Complexity](https://www.tuhh.de/algo/homepage).
 
 My research focuses on combinatorial optimization, scheduling, interval graphs, and parameterized complexity. I am especially interested in industry-motivated optimization problems and in understanding the combinatorial structure that makes such problems tractable or hard.
 
